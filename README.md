@@ -85,7 +85,6 @@ Each model is located in its own folder and is fully self-contained with:
 
    ```bash
    cd BiLSTM/
-   /
    
 2. Open the notebook:
 
