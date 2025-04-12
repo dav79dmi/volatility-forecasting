@@ -6,9 +6,7 @@ This project implements hybrid CNN-LSTM and LSTM deep learning models, alongside
 The deep learning models are evaluated using a 60/20/20 train–test–out-of-sample split, with a strong focus on generalization and out-of-sample forecasting performance. For comparability, the GARCH(1,1) model is trained on the 60% training portion, and forecasting is conducted using a sliding window approach.
 
 All model pipelines are fully modular and include data preprocessing, training, evaluation, and forecasting components.  
-
 While the deep learning models may not necessarily outperform traditional models like GARCH on a basic dataset, this project demonstrates how deep learning can be applied to financial time series in a structured, reproducible way. 
-
 Incorporating richer or higher-frequency features may significantly enhance the forecasting accuracy of the deep learning models.
 
 ---
