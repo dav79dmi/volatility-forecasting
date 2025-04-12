@@ -70,6 +70,7 @@ Each model is located in its own folder and is fully self-contained with:
    cd BiLSTM/
 2. Open the notebook:
    BiLSTM.ipynb
+
 3.Run all cells to:
 
   Load and preprocess the data
