@@ -107,5 +107,10 @@ Repeat the same process for:
   - GARCH(1,1)/
 
 ---
+## Data
+  
+The dataset used in this project is freely available from public platforms (e.g., Yahoo Finance).
+Alternatively, you can directly use the same Apple (AAPL) historical daily price data provided in the data/ folder.
 
-Feel free to modify the models or experiment with additional features — the notebooks are fully editable and modular.
+Feel free to modify the models or experiment with additional features — the notebooks are fully modular and easy to adapt.
+
