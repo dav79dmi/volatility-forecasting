@@ -80,7 +80,7 @@ Each model is located in its own folder and is fully self-contained with:
 - Performance metrics (`MAE`, `RMSE`, `MSE`) saved in `.txt` files
 
 ```markdown
-### To run any model:
+To run any model:
 
 1. Navigate into the corresponding folder:
 
