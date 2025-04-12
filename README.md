@@ -38,9 +38,9 @@ The deep learning models also use bidirectional LSTM layers to better capture pa
 - **MSE**: 0.000074
   
 ### GARCH(1,1) Performance:
-- **MAE**:   
-- **RMSE**:   
-- **MSE**:  
+- **MAE**: 0.006928   
+- **RMSE**: 0.000075   
+- **MSE**: 0.008639  
 
 ## Interpretation:
 While GARCH remains a strong baseline for volatility modeling with daily data, the deep learning models demonstrated competitive performance and stability across multiple training runs.  
