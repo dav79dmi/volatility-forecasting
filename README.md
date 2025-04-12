@@ -56,7 +56,7 @@ The deep learning models also use bidirectional LSTM layers to better capture pa
 ## Interpretation:
 
 While GARCH remains a strong baseline for volatility modeling using daily data, the deep learning models demonstrated **competitive and stable** performance across multiple training runs.
-In fact, the **CNN-LSTM model outperformed GARCH** on average across all three metrics, suggesting that deep learning can be a viable tool for volatility forecasting — especially when richer or higher-frequency data is available.
+In fact, the **CNN-LSTM model outperformed GARCH** on average across all three metrics, suggesting that deep learning can be a viable tool for volatility forecasting — especially when richer or higher-frequency data is available. It would be interesting to explore how the performance of these models evolves with the inclusion of such enhanced features.
 
 ---
 
