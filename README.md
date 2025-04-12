@@ -16,11 +16,23 @@ Evaluation was conducted on the final 20% of the data (out-of-sample), simulatin
 
 The best (reproducible) run achieved:
 - **MAE**: 0.00643  
-- **RMSE**: 0.00866
+- **RMSE**: 0.00868
+- **MSE**: 0.000075
 
+### LSTM Performance (7 reruns):
+- **MAE**:   
+- **RMSE**:  
+- **MSE**: 
 
-
-
+The best (reproducible) run achieved:
+- **MAE**:   
+- **RMSE**: 
+- **MSE**:
+- 
+## GARCH(1,1) Performance:
+- **MAE**:   
+- **RMSE**:   
+- **MSE**:  
 
 ### Interpretation:
 While GARCH remains a strong baseline for volatility modeling with daily data, the CNN-LSTM model demonstrated competitive performance and stability across multiple training runs.  
