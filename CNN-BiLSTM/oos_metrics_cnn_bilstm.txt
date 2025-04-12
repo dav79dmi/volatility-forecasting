@@ -1,0 +1,4 @@
+CNN-BiLSTM Out-of-Sample Forecast Metrics:
+MAE: 0.006426
+MSE: 0.000075
+RMSE: 0.008682
