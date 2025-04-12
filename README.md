@@ -86,21 +86,18 @@ Each model is located in its own folder and is fully self-contained with:
    ```bash
    cd BiLSTM/
 
-3. Open the notebook:
+2. Open the notebook:
 
    BiLSTM.ipynb
 
-3.Run all cells to:
+3. Run all cells to:
 
-  Load and preprocess the data
-
-  Train the model
-
-  Evaluate performance
-
-  Generate forecast plots
+  - Load and preprocess the data
+  - Train the model
+  - Evaluate performance
+  - Generate forecast plots
 
 Repeat the same process for:
-  CNN-BiLSTM/
-  GARCH(1,1)/
+  - CNN-BiLSTM/
+  - GARCH(1,1)/
 
