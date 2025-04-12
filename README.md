@@ -56,3 +56,10 @@ The models are trained using multivariate inputs, with features engineered to ca
 - **Log volume change** and **log high-low range**
 - **Rolling volatility** over 5, 7, and 21 days
 - The target variable is the **5-day forward realized volatility**
+
+## How to Run
+
+Each model script is self-contained and includes all required imports, preprocessing, model training, evaluation, and plotting.
+
+To run the models:
+
