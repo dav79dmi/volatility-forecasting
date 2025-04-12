@@ -1,6 +1,7 @@
 # Volatility-Forecasting
 
-Volatility forecasting is important for risk management, Value-at-Risk (VaR), and portfolio allocation.  
+Volatility forecasting plays a crucial role across finance — from risk management and Value-at-Risk (VaR) estimation, to derivative pricing, portfolio allocation and trading strategy design.
+Accurate volatility estimates help institutions quantify uncertainty, size positions appropriately, manage tail risk, and optimize decision-making in dynamic market environments.
 This project implements hybrid CNN-LSTM and LSTM deep learning models, alongside a traditional GARCH(1,1) model, to forecast 5-day realized volatility using historical daily **Apple (AAPL)** stock price data spanning approximately 45 years.
 
 The deep learning models are evaluated using a 60/20/20 train–test–out-of-sample split, with a strong focus on generalization and out-of-sample forecasting performance. For comparability, the GARCH(1,1) model is trained on the 60% training portion, and forecasting is conducted using a sliding window approach.
