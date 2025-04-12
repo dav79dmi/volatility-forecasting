@@ -29,12 +29,12 @@ The best (reproducible) run achieved:
 - **RMSE**: 
 - **MSE**:
 - 
-## GARCH(1,1) Performance:
+### GARCH(1,1) Performance:
 - **MAE**:   
 - **RMSE**:   
 - **MSE**:  
 
-### Interpretation:
+## Interpretation:
 While GARCH remains a strong baseline for volatility modeling with daily data, the CNN-LSTM model demonstrated competitive performance and stability across multiple training runs.  
 This reinforces that deep learning can be a viable alternative for volatility forecasting — especially when richer features or higher-frequency data are introduced.
 
