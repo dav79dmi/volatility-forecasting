@@ -79,6 +79,10 @@ Each model is located in its own folder and is fully self-contained with:
 - Forecast plots (test + out-of-sample)
 - Performance metrics (`MAE`, `RMSE`, `MSE`) saved in `.txt` files
 
+All required libraries are listed at the top of each notebook.
+
+---
+
 ### To run any model:
 
 1. Navigate into the corresponding folder:
