@@ -27,9 +27,9 @@ The deep learning models also use bidirectional LSTM layers to better capture pa
 - **MSE**: 0.00007600 ± 0.00000227
 
 **The best (reproducible) run achieved:**
-- **MAE**: 0.00643     0.006484
-- **RMSE**: 0.00868    0.008567 
-- **MSE**: 0.000075    0.000073
+- **MAE**: 0.006484
+- **RMSE**: 0.008567 
+- **MSE**: 0.000073
 
 ---
 
