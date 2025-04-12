@@ -1,7 +1,7 @@
 # Volatility-Forecasting
 
 Volatility forecasting is important for risk management, Value-at-Risk (VaR), and portfolio allocation.  
-This project implements hybrid CNN-LSTM and LSTM deep learning models, alongside a traditional GARCH(1,1) model, to forecast 5-day realized volatility using historical daily **Apple (AAPL)** stock price data spanning approximately 40 years.
+This project implements hybrid CNN-LSTM and LSTM deep learning models, alongside a traditional GARCH(1,1) model, to forecast 5-day realized volatility using historical daily **Apple (AAPL)** stock price data spanning approximately 45 years.
 
 The deep learning models are evaluated using a 60/20/20 train–test–out-of-sample split, with a strong focus on generalization and out-of-sample forecasting performance. For comparability, the GARCH(1,1) model is trained on the 60% training portion, and forecasting is conducted using a sliding window approach.
 
@@ -12,7 +12,7 @@ While the deep learning models may not necessarily outperform traditional models
 
 ## Results Summary
 
-The models were trained to forecast 5-day realized volatility using historical daily price data over a 40-year period.  
+The models were trained to forecast 5-day realized volatility using historical daily price data over a 45-year period.  
 Evaluation was conducted on the final 20% of the data (out-of-sample), simulating a real-world forecasting scenario.
 
 The deep learning models also use bidirectional LSTM layers to better capture past and future dependencies in the time series:
