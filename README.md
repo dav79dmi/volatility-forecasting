@@ -88,6 +88,7 @@ Each model is located in its own folder and is fully self-contained with:
    
 2. Open the notebook:
 
+   ```bash
    BiLSTM.ipynb
 
 3. Run all cells to:
