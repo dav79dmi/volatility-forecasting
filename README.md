@@ -49,8 +49,8 @@ The deep learning models also use bidirectional LSTM layers to better capture pa
   
 ### GARCH(1,1) Performance:
 - **MAE**: 0.006928   
-- **RMSE**: 0.000075   
-- **MSE**: 0.008639  
+- **RMSE**: 0.008639   
+- **MSE**: 0.000075
 
 ---
 
