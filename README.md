@@ -29,7 +29,7 @@ The deep learning models also use bidirectional LSTM layers to better capture pa
 
 ### LSTM Performance (Average over 7 Reruns):
 - **MAE**: 0.006957 ± 0.000498   
-- **RMSE**: 0.0000804 ± 0.0000067  
+- **RMSE**: 0.008968 ± 0.000356  
 - **MSE**: 0.0000804 ± 0.0000067 
 
 **The best (reproducible) run achieved:**
@@ -43,7 +43,16 @@ The deep learning models also use bidirectional LSTM layers to better capture pa
 - **MSE**: 0.008639  
 
 ## Interpretation:
-While GARCH remains a strong baseline for volatility modeling with daily data, the deep learning models demonstrated competitive performance and stability across multiple training runs.  
-This reinforces that deep learning can be a viable alternative for volatility forecasting — especially when richer features or higher-frequency data are introduced.
+While GARCH remains a strong baseline for volatility modeling using daily data, the deep learning models demonstrated **competitive and stable** performance across multiple training runs.  
+This highlights that deep learning can be a viable tool for volatility forecasting — especially when richer features and higher-frequency data are introduced.
 
+## Feature Engineering
 
+The models are trained using multivariate inputs, with features engineered to capture price action, volatility dynamics, and technical indicators. Each input sequence includes the following:
+- **Log return** and its **lags** (1-day, 2-day)
+- **Squared returns** and **z-scored returns** (to capture volatility intensity)
+- **Price shock** for detecting large return spikes
+- **Relative Strength Index (RSI)** for momentum signals
+- **Log volume change** and **log high-low range**
+- **Rolling volatility** over 5, 7, and 21 days
+- The target variable is the **5-day forward realized volatility**
