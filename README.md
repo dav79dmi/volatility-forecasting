@@ -79,7 +79,7 @@ Each model is located in its own folder and is fully self-contained with:
 - Forecast plots (test + out-of-sample)
 - Performance metrics (`MAE`, `RMSE`, `MSE`) saved in `.txt` files
 
-All required libraries are listed at the top of each notebook.
+Tip: Make sure you have the required Python packages installed (e.g., `tensorflow`, `pandas`, `matplotlib`). Most of them are listed at the top of each notebook.
 
 ---
 
@@ -106,3 +106,6 @@ Repeat the same process for:
   - CNN-BiLSTM/
   - GARCH(1,1)/
 
+---
+
+Feel free to modify the models or experiment with additional features — the notebooks are fully editable and modular.
