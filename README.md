@@ -59,7 +59,28 @@ The models are trained using multivariate inputs, with features engineered to ca
 
 ## How to Run
 
-Each model script is self-contained and includes all required imports, preprocessing, model training, evaluation, and plotting.
+Each model is located in its own folder and is fully self-contained with:
+- A Jupyter notebook (training, forecasting, evaluation)
+- Forecast plots (test + out-of-sample)
+- Performance metrics (`MAE`, `RMSE`, `MSE`) saved in `.txt` files
 
-To run the models:
+### To run any model:
+1. Navigate into the corresponding folder:
+   ```bash
+   cd BiLSTM/
+2. Open the notebook:
+   BiLSTM.ipynb
+3.Run all cells to:
+
+  Load and preprocess the data
+
+  Train the model
+
+  Evaluate performance
+
+  Generate forecast plots
+
+Repeat the same process for:
+  CNN-BiLSTM/
+  GARCH(1,1)/
 
