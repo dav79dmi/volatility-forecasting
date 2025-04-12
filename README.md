@@ -26,7 +26,7 @@ The deep learning models also use bidirectional LSTM layers to better capture pa
 - **RMSE**: 0.008719 ± 0.000133 
 - **MSE**: 0.00007600 ± 0.00000227
 
-**The best (reproducible) run achieved:**
+**Best (reproducible) run achieved:**
 - **MAE**: 0.006484
 - **RMSE**: 0.008567 
 - **MSE**: 0.000073
@@ -38,7 +38,7 @@ The deep learning models also use bidirectional LSTM layers to better capture pa
 - **RMSE**: 0.008968 ± 0.000356  
 - **MSE**: 0.0000804 ± 0.0000067 
 
-**The best (reproducible) run achieved:**
+**Best (reproducible) run achieved:**
 - **MAE**: 0.006367   
 - **RMSE**: 0.008622 
 - **MSE**: 0.000074
@@ -53,9 +53,9 @@ The deep learning models also use bidirectional LSTM layers to better capture pa
 ---
 
 ## Interpretation:
+
 While GARCH remains a strong baseline for volatility modeling using daily data, the deep learning models demonstrated **competitive and stable** performance across multiple training runs.
-Moreover, hybrid CNN-LSTM model on average over 7 runs outperformed the GARCH model by slight margin in all three reported metrics.
-This highlights that deep learning can be a viable tool for volatility forecasting — especially when richer features and higher-frequency data are introduced.
+In fact, the **CNN-LSTM model outperformed GARCH** on average across all three metrics, suggesting that deep learning can be a viable tool for volatility forecasting — especially when richer or higher-frequency data is available.
 
 ---
 
