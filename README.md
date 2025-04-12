@@ -22,19 +22,19 @@ The deep learning models also use bidirectional LSTM layers to better capture pa
 ---
 
 ### CNN-LSTM Performance (Average over 7 Reruns):
-- **MAE**: 0.006953 ± 0.00056  
-- **RMSE**: 0.00895 ± 0.00041 
-- **MSE**:  0.0000803 ± 0.0000081
+- **MAE**: 0.006681 ± 0.000204 
+- **RMSE**: 0.008719 ± 0.000133 
+- **MSE**: 0.00007600 ± 0.00000227
 
 **The best (reproducible) run achieved:**
-- **MAE**: 0.00643  
-- **RMSE**: 0.00868
-- **MSE**: 0.000075
+- **MAE**: 0.00643     0.006484
+- **RMSE**: 0.00868    0.008567 
+- **MSE**: 0.000075    0.000073
 
 ---
 
 ### LSTM Performance (Average over 7 Reruns):
-- **MAE**: 0.006957 ± 0.000498   
+- **MAE**: 0.006957 ± 0.000498  
 - **RMSE**: 0.008968 ± 0.000356  
 - **MSE**: 0.0000804 ± 0.0000067 
 
